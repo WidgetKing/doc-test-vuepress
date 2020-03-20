@@ -4,7 +4,9 @@
   "description": "Testing Vuepress as a documentation website for CpExtra",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+	"docs:dev": "vuepress dev docs",
+	"docs:build": "vuepress build docs"
   },
   "repository": {
     "type": "git",
@@ -15,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/WidgetKing/doc-test-vuepress/issues"
   },
-  "homepage": "https://github.com/WidgetKing/doc-test-vuepress#readme"
+  "homepage": "https://github.com/WidgetKing/doc-test-vuepress#readme",
+  "devDependencies": {
+    "vuepress": "^1.4.0"
+  }
 }
